@@ -57,3 +57,17 @@ E.g.::
 .. _Wiki: https://github.com/rtomac/robotframework-selenium2library/wiki
 .. _Keyword Documentation: http://rtomac.github.com/robotframework-selenium2library/doc/Selenium2Library.html
 .. _Robot Framework User Guide: http://code.google.com/p/robotframework/wiki/UserGuide
+
+Add by CoolAlex on 07-Aug-2013
+Created on 7-Aug-2013 by Alex Huang
+Robot framework and selenium installation guide.
+1. Install python-2.7.4.msi to C:\python27, refer to: http://www.python.org/download/releases/2.7.4/
+2. Add C:\Python27, C:\Python27\Scripts to system PATH
+3. Install wxPython2.8-win32-unicode-2.8.12.1-py27.exe, refer to: http://sourceforge.net/projects/wxpython/files/wxPython/2.8.11.0/
+4. Install robotframework-2.7.7.win32.exe, refer to: https://code.google.com/p/robotframework/downloads/list
+5. Install robotframework-ride-1.1.win32.exe, refer to: https://code.google.com/p/robotframework-ride/downloads/list 
+6. Double click ez_setup.py to install setuptools, refer to: https://pypi.python.org/pypi/setuptools/0.9.8#installation-instructions
+7. Install pip from command line: pip install --upgrade setuptools, refer to: http://www.pip-installer.org/en/latest/installing.html
+8. Install Selenium2Library from conmmand line: pip install robotframework-selenium2library, refer to: https://github.com/rtomac/robotframework-selenium2library	
+9. Place IEDriverServer.exe and ChromeDriver.ext to C:\python27 to support IE and Chrome browser,
+refer to: https://code.google.com/p/selenium/downloads/list and http://chromedriver.googlecode.com/ and 
